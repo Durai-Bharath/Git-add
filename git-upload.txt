@@ -6,3 +6,11 @@ git commit -m "Your message about the commit"
 git remote add origin https://github.com/yourUsername/yourRepository.git
 git push -u origin master
 git push origin master  
+
+
+//set origin 
+git remote set-url origin git@github.com:ppreyer/first_app.git
+git remote add github git@github.com:ppreyer/first_app.git
+
+//remove init
+rmdir .git or rmdir /s .git
